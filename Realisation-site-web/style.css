@@ -1,0 +1,46 @@
+body{
+    font: 400 14px MuseoSansCyrl,sans-serif;
+    font-size: 14px;
+    color: #5e647d;
+    min-width: 900px;
+    margin: 0px;
+	background-image: url(file:///C:/Users/Creacf%2065/Desktop/grandma_recipes/Realisation-site-web/img/une%20drome.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: scroll; /*fiver l'img de fond*/
+}
+.entete{
+	background-color : rgba(227,219,183,0.58);
+	height: 70px;
+	margin: 0px;
+}
+.menu{
+	display: flex;
+	list-style: none;
+	margin-right:580px;
+	padding: 19px;
+
+}
+.navbar{
+	align-items: center;
+	display: flex;
+	align-items: stretch;
+	justify-content: space-between;
+	height: 40px;
+	max-width: 1450x;
+	padding: 0 64px 0px;
+
+}
+.elem_menu{
+margin-right: 40px;
+margin-left: 40px;
+
+}
+.elem_menu:hover{
+	background-color:#572700;
+	border-style: inset;
+}
+a{
+text-decoration: none;
+color: #5e647d;
+}
