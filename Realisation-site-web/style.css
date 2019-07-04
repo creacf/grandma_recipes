@@ -1,46 +1,225 @@
 body{
     font: 400 14px MuseoSansCyrl,sans-serif;
     font-size: 14px;
-    color: #5e647d;
+    color: #5e647d;/* color police*/
     min-width: 900px;
     margin: 0px;
-	background-image: url(file:///C:/Users/Creacf%2065/Desktop/grandma_recipes/Realisation-site-web/img/une%20drome.jpg);
+	background-image: url(file:///C:/Users/Creacf%2065/Desktop/grandma_recipes/Realisation-site-web/img/une%20drome.jpg); 
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-attachment: scroll; /*fiver l'img de fond*/
+	background-attachment: scroll; /*fixer l'img de fond*/
 }
 .entete{
-	background-color : rgba(227,219,183,0.58);
+	position:fixed;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	background-color : rgba(248,248,248,0.83);
 	height: 70px;
 	margin: 0px;
+	background-color: no-repeat;
 }
 .menu{
 	display: flex;
 	list-style: none;
-	margin-right:580px;
+	margin-right:540px;
 	padding: 19px;
-
+	padding-top: 0px;
+	height: 
 }
 .navbar{
-	align-items: center;
 	display: flex;
-	align-items: stretch;
+	align-items: stretch;/*Les éléments flexibles sont étirés afin que la taille de la boîte de marge sur l'axe en bloc est la même que celle de la ligne sur laquelle l'élément se trouve, tout en respectant les contraintes de hauteur et de largeur.*/
 	justify-content: space-between;
-	height: 40px;
-	max-width: 1450x;
-	padding: 0 64px 0px;
-
+	height: 64px;
+	max-width: 1500px;
+	padding: 10px;
 }
 .elem_menu{
-margin-right: 40px;
-margin-left: 40px;
-
+	width: 120px;
+	height: 25px;
+	margin-right: 40px;
+	margin-left: 40px;
+	text-align: center;
+	border: 4px inset rgba(197,190,161,0.38);
+	border-radius: 25px;
 }
 .elem_menu:hover{
-	background-color:#572700;
-	border-style: inset;
+	background-color : rgba(197,190,161,0.75);
+	height: 25px;
+	text-align: center;
+	margin-top: 0px;
+	color: white;
+	font-size: 20px;
 }
-a{
-text-decoration: none;
-color: #5e647d;
+.menu a{
+	text-decoration: none;
+	color: #5e647d;
+	height: 38px;
+	width: 180px;
+}
+.entete h1{
+	height: 30px;
+	text-align: center;
+	margin: 0px;
+	border: 4px inset rgba(197,190,161,0.38);
+	border-radius: 25px;
+	padding-left:  25px;
+	padding-right: 25px;
+}
+.contenu{
+	position: center;
+	margin: 204px 289px 15px;
+	width: 950px;
+	height: auto;
+	background-color : rgba(248,248,248,0.53);
+}
+.contenu h1{
+	margin: 0px;
+	height: 0px;
+	text-align: center;
+	font-size: 52px;
+	background-color: 
+}
+.contenu p{
+	height: auto;
+	text-align: center;
+	margin:100px 0px 0px;
+	font-size: 20px;
+}
+.button{
+	align-items: ;
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	width: 450px;
+	height:70px; 
+	margin-top: 40px;
+	margin-left: 240px;
+	margin-right: 240px;
+}
+.button .elem_menu{
+	width: 200px;
+	height: 25px;
+	margin-right: 0px;
+	margin-left: 40px;
+	text-align: center;
+	border: 4px inset rgba(197,190,161,0.38);
+	border-radius: 25px;
+}
+.button .elem_menu:hover{
+	background-color : rgba(197,190,161,0.75);
+	height: 25px;
+	text-align: center;
+	margin-top: 0px;
+	color: white;
+	font-size: 16px;
+}
+
+.button a{
+	text-decoration: none;/*pour enlever le trait*/
+	list-style-type: none; /*pour enlever le point devant*/
+	margin-right: 20px;
+	margin-left: 20px;	
+	color: #5e647d;
+	height: 38px;
+	width: 180px;
+}
+.duo_elem{
+	display: flex;
+	align-items: center;
+	width: 462px;
+}
+.Icones{
+	display:flex;
+	max-width: 950px;
+	align-content: center;
+	flex-wrap: wrap; /* pour mettre en deux lignes*/
+	justify-content:center;/* tout center <p> et <div>*/
+	margin: 204px 284px 15px;
+	height: auto;
+	background-color : rgba(248,248,248,0.53);
+}
+.Icones img{
+	display: inline-flex;
+	height: 50px;
+	width: auto;
+    margin: 20px 10px 20px;
+	max-height: 50px;
+} 
+.Icones p{ 
+	width: 520px;
+
+ } 
+.première{
+	display: flex;
+	align-content: center;
+	margin-top: 204px;
+	margin-bottom: 204px;
+	width: 100%;
+	height: auto;
+	background-color : rgba(248,248,248,0.53);
+}
+.Text{
+	max-width: 301px;
+	padding: 9px;
+	display: flex;
+	flex-wrap: wrap; /* pour mettre en deux lignes*/
+	justify-content:center;
+	margin-left: 284px;
+	border: 4px inset rgba(197,190,161,0.38);
+	border-radius: 25px;
+}
+.première img{
+	display: flex;
+	justify-content: space-between;
+}
+h3{
+	margin-top:  70px;
+}
+.Tableur img{
+	width: 601px;
+}
+.footer{
+	position: center;
+	height: 80px;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	margin: 0px;
+	background-color : rgba(248,248,248,0.83);
+	background-color: no-repeat;
+}
+.info{
+	display: flex;
+	align-items: stretch;/*Les éléments flexibles sont étirés afin que la taille de la boîte de marge sur l'axe en bloc est la même que celle de la ligne sur laquelle l'élément se trouve, tout en respectant les contraintes de hauteur et de largeur.*/
+	justify-content: space-between;
+	
+	list-style-type: none; /*pour enlever le point devant*/
+	height: 64px;
+	max-width: 1500px;
+	padding: 10px 284px 10px 284px;
+}
+.info .elem_menu{
+	width: 120px;
+	height: 25px;
+	margin-right: 40px;
+	margin-left: 40px;
+	text-align: center;
+	border: 4px inset rgba(197,190,161,0.38);
+	border-radius: 25px;
+}
+.info .elem_menu:hover{
+	background-color : rgba(197,190,161,0.75);
+	height: 25px;
+	text-align: center;
+	color: white;
+	margin-top: 0px;
+	font-size: 20px;
+}
+.info a{
+	text-decoration: none;/*pour enlever le trait*/
+	color: #5e647d;
+	height: 38px;
+	width: 180px;
 }
