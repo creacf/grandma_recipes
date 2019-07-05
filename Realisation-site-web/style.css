@@ -88,7 +88,6 @@ body{
 	font-size: 20px;
 }
 .button{
-	align-items: ;
 	display: flex;
 	align-items: baseline;
 	justify-content: space-between;
@@ -118,7 +117,6 @@ body{
 
 .button a{
 	text-decoration: none;/*pour enlever le trait*/
-	list-style-type: none; /*pour enlever le point devant*/
 	margin-right: 20px;
 	margin-left: 20px;	
 	color: #5e647d;
@@ -169,10 +167,13 @@ body{
 	margin-left: 284px;
 	border: 4px inset rgba(197,190,161,0.38);
 	border-radius: 25px;
+	background-color : rgba(248,248,248,0.83);
 }
 .première img{
 	display: flex;
 	justify-content: space-between;
+	border: 4px inset rgba(197,190,161,0.38);
+	border-radius: 25px;
 }
 h3{
 	margin-top:  70px;
@@ -188,24 +189,27 @@ h3{
 	top: 0px;
 	margin: 0px;
 	background-color : rgba(248,248,248,0.83);
-	background-color: no-repeat;
 }
 .info{
 	display: flex;
 	align-items: stretch;/*Les éléments flexibles sont étirés afin que la taille de la boîte de marge sur l'axe en bloc est la même que celle de la ligne sur laquelle l'élément se trouve, tout en respectant les contraintes de hauteur et de largeur.*/
 	justify-content: space-between;
-	
 	list-style-type: none; /*pour enlever le point devant*/
 	height: 64px;
-	max-width: 1500px;
+	width: 969px;
 	padding: 10px 284px 10px 284px;
+	background-color : rgba(248,248,248,0.83);
 }
 .info .elem_menu{
-	width: 120px;
+	display: flex;
+	align-items: stretch;/*Les éléments flexibles sont étirés afin que la taille de la boîte de marge sur l'axe en bloc est la même que celle de la ligne sur laquelle l'élément se trouve, tout en respectant les contraintes de hauteur et de largeur.*/
+	justify-content: center;
+	width: 180px;
 	height: 25px;
 	margin-right: 40px;
-	margin-left: 40px;
+	margin-left: 20px;
 	text-align: center;
+	align-items:center;
 	border: 4px inset rgba(197,190,161,0.38);
 	border-radius: 25px;
 }
@@ -222,4 +226,9 @@ h3{
 	color: #5e647d;
 	height: 38px;
 	width: 180px;
+
+}
+.info img{
+	max-width: 25px;
+	padding-left: 15px;
 }
